@@ -49,15 +49,6 @@ $ tree .
 |____example_02.py
 |____example_03.py
 |____example_04.py
-|____example_05.py
-|____example_06.py
-|____example_07.py
-|____example_08.py
-|____example_09.py
-|____example_10.py
-|____example_11.py
-|____example_12.py
-|____example_13.py
 |____dev
 | |____img
 | | |____pattern.png
@@ -205,15 +196,7 @@ Print out the marker(s) on paper, cut them and glue the printed paper onto cardb
 | `example_02.py` | Displays a letter from the alphabet for each detected marker (max. 26 letters).                      |
 | `example_03.py` | Draws an arrow between each marker center and shows the distance in pixels.                          |
 | `example_04.py` | Draws a line between marker centers and displays the distance in centimeters.                        |
-| `example_05.py` | Projects a 3D cube on each detected marker.                                                          |
-| `example_06.py` | Displays X, Y, Z axes on each detected marker.                                                       |
-| `example_07.py` | Shows a scaled picture on each marker, based on the marker ID.                                       |
-| `example_08.py` | Displays a scaled video loop on each marker, based on the marker ID.                                 |
-| `example_09.py` | Shows a scaled picture between two specific markers, based on their marker ID combination.           |
-| `example_10.py` | Displays a scaled video behind a circular mask created using all markers.                            |
-| `example_11.py` | Projects filled cubes on markers, merging them if the distance between markers is below a set value. |
-| `example_12.py` | Use marker id 0 as eraser and draw with all other markers lines on screen                            |
-| `example_13.py` | For each marker the position can be saved (_m-key_) and difference is shown.                         |
+
 
 > In few examples you still have to specify the length or height of the ArUco markers for constant: **MARKER_SIZE**. The measurement value must be provided in meters (_example: 3.5cm is 0.035_).
 > 
